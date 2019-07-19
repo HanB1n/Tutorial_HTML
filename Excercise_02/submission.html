@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>H2 Computing Sign Up Form</title>
+</head>
+<body>
+    <h1>H2 Computing Sign Up Form</h1>
+    <p>Please enter your particulars below.</p>
+    <form method="GET" action="response_form.html">
+        <table>
+            <tr>
+                <td><label for="f_name">First Name:</label></td>
+                <td><input name="First_name" id="f_name" placeholder="First Name"/></td>
+                <td><label for="l_name">Last Name:</label></td>
+                <td><input name="First_name" id="l_name" placeholder="Last Name"/></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input name="Email" id="email" placeholder="name@email.com"/></td>
+                <td><label for="contact">Contact:</label></td>
+                <td><input name="Contact" id="contact"/></td>
+            </tr>
+            <tr>
+                <td><label for="class">Class:</label></td>
+                <td><input name="Class" id="class"/></td>
+                <td><label for="gender">Gender:</label></td>
+                <td><select name="Gender" id="gender"/>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth:</label></td>
+                <td><input type="date" name="dob" id="dob" placeholder="01/01/2000"/></td>
+            </tr>
+        </table>
+        <br/>
+        <table>
+            <tr>
+                <td>Subject Combination</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="combination" id="P CP M E"/>
+                    <label for="P CP M E">P CP M E</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="combination" id="C CP M E"/>
+                    <label for="C CP M E">C CP M E</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="combination" id="others"/>
+                    <label for="others">Others:</label>
+                    <input type="text" name="combination">
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <input type="submit">
+    </form>
+</body>
+</html>
